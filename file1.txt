@@ -1,0 +1,9 @@
+num = 987
+pos = 10**(len(str(num))-1)
+rev = 0
+while num != 0:
+ld = num%10
+rev = num*pos
+pos//=10
+rev//=10
+print(rev)
